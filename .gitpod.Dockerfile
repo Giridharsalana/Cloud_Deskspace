@@ -1,4 +1,4 @@
-FROM giridharsalana/gitpod_container_full
+FROM workspace-full-vnc
 
 LABEL maintainer="giridharsalana@gmail.com"
 
