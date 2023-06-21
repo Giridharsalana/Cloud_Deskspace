@@ -27,6 +27,9 @@ RUN cd Android/sdk/tools/bin && ./sdkmanager "build-tools;29.0.2" "patcher;v4" "
 RUN cd Android/sdk/tools/bin && ./sdkmanager --install "cmdline-tools;latest"
 ENV PATH "$PATH:/home/gitpod/Android/sdk/platform-tools"
 
+# Java 11 Install 
+RUN sudo apt update -y && sudo apt install -y openjdk-11-jdk
+
 # Download Flutter SDK
 RUN git clone https://github.com/flutter/flutter.git
 ENV PATH "$PATH:/home/gitpod/flutter/bin"
