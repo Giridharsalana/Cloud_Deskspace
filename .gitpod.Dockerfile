@@ -4,7 +4,7 @@ LABEL maintainer="giridharsalana@gmail.com"
 
 # Gui Setup
 RUN sudo apt-get update && \
-    sudo apt-get install -y libx11-dev libxkbfile-dev libsecret-1-dev libgconf-2–4 libnss3 && \
+    sudo apt-get install -y libx11-dev libxkbfile-dev libsecret-1-dev libgconf-2-4 libnss3 && \
     sudo rm -rf /var/lib/apt/lists/*
 
 # Install custom tools, runtime, etc.
