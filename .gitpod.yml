@@ -18,8 +18,6 @@ vscode:
     - eamodio.gitlens
     - formulahendry.code-runner
     - GitHub.codespaces
-    - GitHub.copilot
-    - GitHub.copilot-labs
     - GitHub.vscode-pull-request-github
     - gitpod.gitpod-remote-ssh
     - golang.go
