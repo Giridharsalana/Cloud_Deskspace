@@ -16,7 +16,7 @@ RUN sudo apt-get update \
 RUN sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get install --quiet --yes fish
     
 # Flutter Setup
-RUN sudo apt update && sudo apt install -y curl git unzip xz-utils zip libglu1-mesa wget openjdk-8-jdk
+RUN sudo apt update && sudo apt install -y curl git unzip xz-utils zip libglu1-mesa wget openjdk-8-jdk nala
 
 # Prepare Android directories and system variables
 RUN mkdir -p Android/sdk
