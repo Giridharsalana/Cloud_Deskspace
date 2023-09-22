@@ -9,14 +9,14 @@ RUN sudo apt-get update && \
 
 # Install Dependencies
 RUN sudo apt-get update \
-    && sudo apt-get install -y libgtk-3-dev \
+    && sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.0-37 \
     && sudo apt-get clean && sudo rm -rf /var/cache/apt/* && sudo rm -rf /var/lib/apt/lists/* && sudo rm -rf /tmp/*
 
 # Install custom tools, runtime, etc.
 RUN sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get install --quiet --yes fish
     
 # Flutter Setup
-RUN sudo apt update && sudo apt install -y curl git unzip xz-utils zip libglu1-mesa wget openjdk-8-jdk
+RUN sudo apt update && sudo apt install -y curl git unzip xz-utils zip libglu1-mesa wget openjdk-8-jdk nala
 
 # Prepare Android directories and system variables
 RUN mkdir -p Android/sdk
