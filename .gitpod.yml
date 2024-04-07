@@ -6,13 +6,9 @@ ports:
 vscode:
   extensions:
     - akamud.vscode-theme-onedark
-    - ms-vscode-remote.remote-containers
     - usernamehw.errorlens
     - alexisvt.flutter-snippets
     - akamud.vscode-theme-onedark
-    - alexisvt.flutter-snippets
-    - Blackboxapp.blackbox
-    - chrmarti.regex
     - Dart-Code.dart-code
     - Dart-Code.flutter
     - eamodio.gitlens
@@ -31,8 +27,6 @@ vscode:
     - ms-toolsai.jupyter-renderers
     - PKief.material-icon-theme
     - rangav.vscode-thunder-client
-    - rashwell.tcl
-    - redhat.vscode-yaml
     - ritwickdey.LiveServer
     - rust-lang.rust-analyzer
     - usernamehw.errorlens
