@@ -13,7 +13,7 @@ RUN sudo apt-get update \
     && sudo apt-get clean && sudo rm -rf /var/cache/apt/* && sudo rm -rf /var/lib/apt/lists/* && sudo rm -rf /tmp/*
 
 # Install custom tools, runtime, etc.
-RUN sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get install --quiet --yes fish
+RUN sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get install --quiet --yes fish nala 
 
 # Install UV
 RUN curl -LsSf https://astral.sh/uv/install.sh | sh
